@@ -41,3 +41,5 @@ FROM super_store
 GROUP BY customer_id, customer_name
 ORDER BY total_sales DESC;
 
+
+SELECT * FROM super_store WHERE customer_id = 1;
